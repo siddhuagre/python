@@ -1,0 +1,13 @@
+import pandas as pd
+Factorial=1
+num=(int(input("Enter the no:")))
+
+if num<0:
+    print("There is no Factorial for negative numbers")
+elif num==0:
+    print("the Factorial of 0 is 1")
+else:
+    for i in range(1,num+1):
+        Factorial=Factorial*i
+    print("The Factorial",num, "is", Factorial)
+    
