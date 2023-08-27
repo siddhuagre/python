@@ -1,0 +1,10 @@
+#a3b2c4---->aaabbcccc
+str=input("Enter the String:")
+output=""
+for char in str:
+      if char.isalpha():
+          var=char
+      else:
+           num=int(char)
+           output=output+(var*num)
+print(output)     
